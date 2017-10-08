@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:700');
+
+.ui.footer{ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #50514F;
+ }
+ 
+ .container.main{
+	padding-top: 7em;
+	padding-bottom: 7em;
+} 
+
+.landing-bg{
+	background-image: url('https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?h=350&auto=compress&cs=tinysrgb');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div#landing{
+	width: 100%;
+	height: 100vh;
+}
+
+.landing-header{
+	padding-top: 5em;
+	text-align: center;
+	color: white;
+}
+
+.landing-header h1{
+	font-family: 'Playfair Display', 'Helvetica', 'Arial';
+	font-size: 2.5em;
+}
+
+#delete{
+	display: inline;
+}
+
+body{
+	font-family: 'Open sans', 'Helvetica', 'Arial';
+}

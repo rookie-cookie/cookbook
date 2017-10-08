@@ -1,0 +1,35 @@
+<% include ./partials/header %>
+
+<div class="ui main text container">
+	<div class="ui huge header">Create Recipe</div>
+	
+	<form action="/recipes" method="POST" class="ui form">
+		<div class="field">
+			<label>Name</label>
+			<input type="text" name="recipe[name]" placeholder="name">
+		</div>
+		<div class="field">
+			<label>Image</label>
+			<input type="text" name="recipe[image]" placeholder="image url">
+		</div>
+		<div class="field">
+			<label>Description</label>
+			<textarea name="recipe[description]"></textarea>
+		</div>
+		<div class="field">
+			<label>Ingredients</label>
+			<textarea name="recipe[ingredients]"></textarea>
+		</div>
+		<div class="field">
+			<label>Procedure</label>
+			<textarea name="recipe[procedure]"></textarea>
+		</div>
+		<input type="submit" class="ui basic button big violet"> 
+	</form>
+
+</div>
+
+<% include ./partials/footer %>
+
+
+
